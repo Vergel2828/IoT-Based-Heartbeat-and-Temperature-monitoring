@@ -1,0 +1,38 @@
+Raspberry pi v3 or higher used
+2016-05-27 raspbian-jessie operating system used
+
+To install Python on Ubuntu, run
+
+sudo apt-get install python python-tk
+Or for Python 3
+
+sudo apt-get install python python3-tk
+
+
+sudo apt-get install python3-matplotlib
+	- for live graph of the reading of the sensors 
+
+sudo apt-get install python-pip
+sudo pip install numpy
+sudo pip install pandas
+
+>> TkTreectrl
+
+    python setup.py install
+
+sudo apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev
+
+
+    # ./configure --with-tcl=/usr/lib/tcl8.4 --with-tk=/usr/lib/tk8.4
+    # make
+    # make install
+
+offline text to speech
+pip3 install pyttsx3
+google text to speech
+pip3 install gTTS
+
+
+to run the program
+
+sudo python3 MainApplication.py
